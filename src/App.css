@@ -1,38 +1,136 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #d4d2b8;
+}
+.container {
+  max-width: 95%;
+  margin: auto;
+}
+.d_flex {
+  display: flex;
+  justify-content: space-between;
+}
+.f_flex {
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style: none;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: none;
+}
+
+.btn_shadow {
+  padding: 1.8rem 2.5rem;
+  border-radius: 0.6rem;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  color: #000;
+  transition: 0.5s;
+}
+.btn_shadow {
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: .4rem .4rem .8rem #cbcbcb, -0.4rem -0.4rem 0.8rem #ffffff;
+}
+.btn_shadow:hover {
+  background: #ff014f;
+  color: white;
+  transform: translateY(-1rem);
+}
+.box_shodow {
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 0.4rem 0.4rem .8rem #cbcbcb, -.4rem -.4rem .8rem #ffffff;
+  border-radius: 1rem;
+}
+.row,
+.left,
+.right {
+  width: 50%;
+}
+.top {
+  margin-top: 8rem;
+}
+.mtop {
+  margin-top: 4rem;
+}
+.heading {
+  margin: 5rem 0 5rem 0;
+}
+.heading h4 {
+  color: #ff014f;
+  letter-spacing: .2rem;
+  font-weight: 400;
+}
+.heading h1 {
+  font-size: 6rem;
+  color: #3c3e41;
+}
+h1 {
+  color: #3c3e41;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-gap: 3.5rem;
+}
+p {
+  color: #3c3e41;
+}
+.text-center {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.primary_color {
+  color: #ff014f;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+textarea,
+input {
+  width: 100%;
+  padding: 2rem;
+  border-radius: 5rem;
+  outline: none;
+  border: 3rem solid #e2e8ec;
+  margin-bottom: 2rem;
+}
+/*----------Footer---------*/
+footer {
+  margin: 20% 0 10% 0;
+}
+footer p {
+  margin-top: 3rem;
+}
+/*----------Footer---------*/
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .left,
+  .right {
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+  html{
+    font-size: 50%;
   }
 }
