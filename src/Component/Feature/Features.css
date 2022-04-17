@@ -1,16 +1,16 @@
 .features .box {
-  padding: 50px;
+  padding: 5.0rem;
 }
 .features .box h2 {
-  margin: 20px 0 20px 0;
+  margin: 2rem 0 2rem 0;
 }
 .features .box p {
-  word-spacing: 2px;
+  word-spacing: .2rem;
   transition: 0.5s;
 }
 .features .box i {
-  font-size: 30px;
-  margin-top: 20px;
+  font-size: 3.0rem;
+  margin-top: 2.0rem;
   transition: 0.5s;
   opacity: 0;
 }
@@ -21,8 +21,4 @@
   color: white;
   opacity: 1;
 }
-.features h2 {
-  font-size: 18px;
-  transition: 0.5s;
-  padding-bottom: 30px;
-}
+

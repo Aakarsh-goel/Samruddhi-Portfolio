@@ -36,24 +36,33 @@ const Home = () => {
               />
             </span>
           </h2>
-          <p> Take the example of a pull quote containing two short paragraphs. The spacing between the paragraphs will depend on the size of the paragraph text, so you could feasibly set that spacing in either rems or ems. Should you decide during your design process that the pull quote should be set a bit larger, then the spacing between the paragraphs must also be increased. Therefore the paragraph spacing is directly related to the paragraph text size and therefore be considered local sizing within a component. Hence you should use ems in this case.</p>
+          <p>
+            {" "}
+            Take the example of a pull quote containing two short paragraphs.
+            The spacing between the paragraphs will depend on the size of the
+            paragraph text, so you could feasibly set that spacing in either
+            rems or ems. Should you decide during your design process that the
+            pull quote should be set a bit larger, then the spacing between the
+            paragraphs must also be increased. Therefore the paragraph spacing
+            is directly related to the paragraph text size and therefore be
+            considered local sizing within a component. Hence you should use ems
+            in this case.
+          </p>
           <div className="hero_btn d_flex">
             <div className="col_1">
               <h4>FIND ME</h4>
-              <div className="col1">
-              <button className="btn_shadow ">
 
+              <button className="btn_shadow ">
                 <i className="fab fa-instagram"></i>
               </button>
               <button className="btn_shadow">
                 <i className="fab fa-linkedin-in"></i>
               </button>
-              </div>
             </div>
 
             <div className="col_1">
               <h4>BEST SKILL ON</h4>
-              <div className="col1">
+
               <button className="btn_shadow">
                 <img className="skills" src={skill1} />
               </button>
@@ -66,7 +75,6 @@ const Home = () => {
               <button className="btn_shadow">
                 <img className="skills" src={skill4} />
               </button>
-              </div>
             </div>
           </div>
         </div>
