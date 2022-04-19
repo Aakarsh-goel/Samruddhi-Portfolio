@@ -38,7 +38,7 @@ const Home = () => {
           </h2>
           <p>
             {" "}
-            Take the example of a pull quote containing two short paragraphs.
+            Hi I am Samruddhi Take the example of a pull quote containing two short paragraphs.
             The spacing between the paragraphs will depend on the size of the
             paragraph text, so you could feasibly set that spacing in either
             rems or ems. Should you decide during your design process that the
