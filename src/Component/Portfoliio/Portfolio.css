@@ -11,15 +11,14 @@
 }
 
 .Portfolio .img {
+  height: 30rem;
   overflow: hidden;
   transition: 0.5s;
-  
 }
 .Portfolio img {
   width: 100%;
   border-radius: 10px;
   transition: 0.5s;
- 
 }
 .Portfolio .box .img:hover img {
   transform: scale(1.2);
@@ -82,7 +81,7 @@ body.active-modal {
 }
 
 .overlay {
-  background-color: #ecf0f3;
+  background-color: #d4d2b8;
 }
 .modal-content {
   position: absolute;
@@ -101,7 +100,7 @@ body.active-modal {
 }
 
 .modal-text {
-  padding: 0 100px 0 50px;
+  padding: 0 10rem 0 5rem;
 }
 .modal-text h1 {
   margin: 20px 0 20px 0;
@@ -149,5 +148,10 @@ body.active-modal {
   .modal .right,
   .modal .left {
     padding: 0;
+  }
+  .modal-text button {
+    font-size: 80%;
+    margin-right: 20px;
+    color: #ff014f;
   }
 }

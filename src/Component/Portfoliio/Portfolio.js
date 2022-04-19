@@ -19,6 +19,8 @@ const Portfolio = () => {
                 image={value.image}
                 category={value.category}
                 title={value.title}
+                path={value.path}
+                desc={value.desc}
               />
             );
           })}
