@@ -53,16 +53,17 @@ button {
 }
 .btn_shadow {
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
-  box-shadow: .4rem .4rem .8rem #cbcbcb, -0.4rem -0.4rem 0.8rem #ffffff;
+  box-shadow: 0.4rem 0.4rem 0.8rem #cbcbcb, -0.4rem -0.4rem 0.8rem #ffffff;
 }
 .btn_shadow:hover {
-  background: #ff014f;
+  cursor: pointer;
+  background: #ff014f !important;
   color: white;
   transform: translateY(-1rem);
 }
-.box_shodow {
+.box_shadow {
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
-  box-shadow: 0.4rem 0.4rem .8rem #cbcbcb, -.4rem -.4rem .8rem #ffffff;
+  box-shadow: 0.4rem 0.4rem 0.8rem #cbcbcb, -0.4rem -0.4rem 0.8rem #ffffff;
   border-radius: 1rem;
 }
 .row,
@@ -81,7 +82,7 @@ button {
 }
 .heading h4 {
   color: #ff014f;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
   font-weight: 400;
 }
 .heading h1 {
@@ -130,7 +131,7 @@ footer p {
   .right {
     width: 100%;
   }
-  html{
+  html {
     font-size: 50%;
   }
 }

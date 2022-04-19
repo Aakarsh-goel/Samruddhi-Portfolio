@@ -52,7 +52,10 @@ const Home = () => {
             <div className="col_1">
               <h4>FIND ME</h4>
 
-              <button className="btn_shadow ">
+              <button
+                className="btn_shadow "
+                onClick={() => console.log("button is clicked")}
+              >
                 <i className="fab fa-instagram"></i>
               </button>
               <button className="btn_shadow">
