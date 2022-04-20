@@ -36,12 +36,6 @@ const Dance = () => {
       src: "https://youtu.be/AWzaJ77soPM",
       credit: "Video by Samruddhi Modak",
     },
-    {
-      id: 3,
-      title: "Video4",
-      src: "https://youtu.be/AWzaJ77soPM",
-      credit: "Video by Samruddhi Modak",
-    },
   ];
   return (
     <div>
