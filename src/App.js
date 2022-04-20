@@ -4,6 +4,7 @@ import "./App.css";
 import Home from "./Component/Hero/Home";
 import Features from "./Component/Feature/Features";
 import Portfolio from "./Component/Portfoliio/Portfolio";
+import Contact from "./Component/Contact/Contact";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Home />
       <Features />
       <Portfolio />
+      <Contact />
     </div>
   );
 };

@@ -11,7 +11,7 @@ const Design = [
     title: "Cafe Lab- A Semi Formal Space",
     image: img1,
     path: pr1,
-    desc: "to be written for Cafe Lab",
+    desc: "",
   },
   {
     id: 2,

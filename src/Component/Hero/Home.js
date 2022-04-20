@@ -38,15 +38,15 @@ const Home = () => {
           </h2>
           <p>
             {" "}
-            Hi I am Samruddhi Take the example of a pull quote containing two short paragraphs.
-            The spacing between the paragraphs will depend on the size of the
-            paragraph text, so you could feasibly set that spacing in either
-            rems or ems. Should you decide during your design process that the
-            pull quote should be set a bit larger, then the spacing between the
-            paragraphs must also be increased. Therefore the paragraph spacing
-            is directly related to the paragraph text size and therefore be
-            considered local sizing within a component. Hence you should use ems
-            in this case.
+            Hi I am Samruddhi Take the example of a pull quote containing two
+            short paragraphs. The spacing between the paragraphs will depend on
+            the size of the paragraph text, so you could feasibly set that
+            spacing in either rems or ems. Should you decide during your design
+            process that the pull quote should be set a bit larger, then the
+            spacing between the paragraphs must also be increased. Therefore the
+            paragraph spacing is directly related to the paragraph text size and
+            therefore be considered local sizing within a component. Hence you
+            should use ems in this case.
           </p>
           <div className="hero_btn d_flex">
             <div className="col_1">
@@ -58,9 +58,14 @@ const Home = () => {
               >
                 <i className="fab fa-instagram"></i>
               </button>
-              <button className="btn_shadow">
-                <i className="fab fa-linkedin-in"></i>
-              </button>
+              <a
+                href="https://www.linkedin.com/in/samruddhi-modak-2320551b6/"
+                target="_blank"
+              >
+                <button className="btn_shadow">
+                  <i className="fab fa-linkedin-in"></i>
+                </button>
+              </a>
             </div>
 
             <div className="col_1">

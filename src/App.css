@@ -110,9 +110,9 @@ textarea,
 input {
   width: 100%;
   padding: 2rem;
-  border-radius: 5rem;
+  border-radius: 3rem;
   outline: none;
-  border: 3rem solid #e2e8ec;
+  border: 0.5rem solid #e2e8ec;
   margin-bottom: 2rem;
 }
 /*----------Footer---------*/

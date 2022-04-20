@@ -35,7 +35,7 @@
   letter-spacing: 0.2rem;
   color: #43474b;
   font-size: 1.5rem;
-  margin: .3rem 0 .3rem 0;
+  margin: 0.3rem 0 0.3rem 0;
 }
 .hero_btn button {
   margin-right: 3rem;
@@ -87,7 +87,7 @@
   max-width: 50%;
   min-width: none;
 }
-@media (max-width: 500px) {
+@media (max-width: 830px) {
   .hero .right,
   .hero .left {
     width: 100%;
@@ -115,7 +115,7 @@
   .right_img_grid {
     max-width: 100%;
     height: 54vh;
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.9rem;
   }
   /* .container-grid {
     flex-direction: column;
@@ -123,16 +123,14 @@
   } */
   .left-container {
     flex: 100%;
-  
   }
   .right-container {
     flex: 100%;
   }
-  .btn_shadow{
+  .btn_shadow {
     margin-top: 1rem;
   }
-  p{
+  p {
     margin-right: 1rem;
   }
- 
 }
