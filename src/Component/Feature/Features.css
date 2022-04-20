@@ -1,16 +1,18 @@
 .features .box {
-  padding: 5.0rem;
+  padding: 5rem;
 }
 .features .box h2 {
   margin: 2rem 0 2rem 0;
 }
+
 .features .box p {
-  word-spacing: .2rem;
+  word-spacing: 0.2rem;
   transition: 0.5s;
+
 }
 .features .box i {
-  font-size: 3.0rem;
-  margin-top: 2.0rem;
+  font-size: 3rem;
+  margin-top: 2rem;
   transition: 0.5s;
   opacity: 0;
 }
@@ -21,4 +23,3 @@
   color: white;
   opacity: 1;
 }
-

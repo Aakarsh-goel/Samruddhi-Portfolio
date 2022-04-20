@@ -114,6 +114,7 @@ input {
   outline: none;
   border: 0.5rem solid #e2e8ec;
   margin-bottom: 2rem;
+  font-size: 25px;
 }
 /*----------Footer---------*/
 footer {

@@ -56,10 +56,13 @@ const Contact = () => {
                     and call in to my account.
                   </p>{" "}
                   <br />
-                  <p className="contact-details">Phone: +919518548960</p>
+                  <p className="contact-details">
+                    Phone: <br />
+                    +919518548960
+                  </p>
                   <p className="contact-details">
                     {" "}
-                    Email: samruddhisheetal@gmail.com{" "}
+                    Email: <br /> samruddhisheetal@gmail.com{" "}
                   </p>{" "}
                   <br />
                 </div>
