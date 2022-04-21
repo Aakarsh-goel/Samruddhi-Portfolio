@@ -45,9 +45,9 @@ const Contact = () => {
           <div className="content d_flex">
             <div className="left">
               <div className="box box_shodow flex-contact">
-                <div className="img">
+                {/* <div className="img">
                   <img className="img-contact" src={contact2} alt="" />
-                </div>
+                </div> */}
                 <div className="details">
                   <h1>Samruddhi Modak</h1>
                   <p>VNIT, Nagpur</p>
