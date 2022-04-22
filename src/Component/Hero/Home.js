@@ -5,11 +5,11 @@ import skill1 from "../../Pics/illustrator.png";
 import skill2 from "../../Pics/autocad.jpg";
 import skill3 from "../../Pics/revit.jpg";
 import skill4 from "../../Pics/photoshop.png";
-import hero from "../../Pics/hero.jpeg";
+import hero from "../../Pics/hero-2.jpeg";
 
 const Home = () => {
   return (
-    <section className="hero" id="home">
+    <section className="hero sam-grid" id="home">
       <div className="container-grid f_flex top">
         <div className="left-container top">
           <h3>WELCOME TO MY WORLD </h3>
@@ -52,49 +52,49 @@ const Home = () => {
             visit my LinkedIn and Instagram handles to get further details about
             me.
           </p>
-          <div className="hero_btn d_flex">
-            <div className="col_1">
-              <h4>FIND ME</h4>
-
-              <button
-                className="btn_shadow "
-                onClick={() => console.log("button is clicked")}
-              >
-                <i className="fab fa-instagram"></i>
-              </button>
-              <a
-                href="https://www.linkedin.com/in/samruddhi-modak-2320551b6/"
-                target="_blank"
-              >
-                <button className="btn_shadow">
-                  <i className="fab fa-linkedin-in"></i>
-                </button>
-              </a>
-            </div>
-
-            <div className="col_1">
-              <h4>BEST SKILL ON</h4>
-
-              <button className="btn_shadow">
-                <img className="skills" src={skill1} />
-              </button>
-              <button className="btn_shadow">
-                <img className="skills" src={skill2} />{" "}
-              </button>
-              <button className="btn_shadow">
-                <img className="skills" src={skill3} />
-              </button>
-              <button className="btn_shadow">
-                <img className="skills" src={skill4} />
-              </button>
-            </div>
-          </div>
         </div>
 
         <div className="right-container">
           <div className="right_img_grid">
             <img src={hero} />
           </div>
+        </div>
+      </div>
+      <div className="hero_btn d_flex_find ">
+        <div className="col_1">
+          <h4>FIND ME</h4>
+
+          <button
+            className="btn_shadow "
+            onClick={() => console.log("button is clicked")}
+          >
+            <i className="fab fa-instagram"></i>
+          </button>
+          <a
+            href="https://www.linkedin.com/in/samruddhi-modak-2320551b6/"
+            target="_blank"
+          >
+            <button className="btn_shadow">
+              <i className="fab fa-linkedin-in"></i>
+            </button>
+          </a>
+        </div>
+
+        <div className="col_1">
+          <h4>BEST SKILL ON</h4>
+
+          <button className="btn_shadow">
+            <img className="skills" src={skill1} />
+          </button>
+          <button className="btn_shadow">
+            <img className="skills" src={skill2} />{" "}
+          </button>
+          <button className="btn_shadow">
+            <img className="skills" src={skill3} />
+          </button>
+          <button className="btn_shadow">
+            <img className="skills" src={skill4} />
+          </button>
         </div>
       </div>
     </section>
