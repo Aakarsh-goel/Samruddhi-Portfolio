@@ -7,9 +7,6 @@ const Card = (props) => {
       <img className="img-card" src={props.image} />
       <h2>{props.title}</h2>
       <p className="feature-text">{props.desc}</p>
-      <a href="">
-        <i className="fas fa-arrow-right arrow"></i>
-      </a>
     </div>
   );
 };

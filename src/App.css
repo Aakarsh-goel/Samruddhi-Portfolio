@@ -55,7 +55,7 @@ button {
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
   box-shadow: 0.4rem 0.4rem 0.8rem #cbcbcb, -0.4rem -0.4rem 0.8rem #ffffff;
 }
-.btn_shadow:hover {
+.btn_shadow::hover {
   cursor: pointer;
   background: #ff014f !important;
   color: white;
