@@ -38,15 +38,19 @@ const Home = () => {
           </h2>
           <p>
             {" "}
-            Hi I am Samruddhi Take the example of a pull quote containing two
-            short paragraphs. The spacing between the paragraphs will depend on
-            the size of the paragraph text, so you could feasibly set that
-            spacing in either rems or ems. Should you decide during your design
-            process that the pull quote should be set a bit larger, then the
-            spacing between the paragraphs must also be increased. Therefore the
-            paragraph spacing is directly related to the paragraph text size and
-            therefore be considered local sizing within a component. Hence you
-            should use ems in this case.
+            I am currently at 3rd year pursuing Bachelor of Architecture from
+            VNIT, Nagpur. I am deeply interested in being a part of a revolution
+            of Sustainable Architecture. At the same time I love thinking about
+            interior design and wish to collaborate these two fields. I am also
+            a professional Bharatnatyam dancer and bagged titles like{" "}
+            <b>"Bharat Kavin Mani", "Kala Bhaskara", and "Natya Kalai Mani" </b>
+            . I wish to perform dance at the highest levels both at Classical
+            and Western dance types. You must be pretty excited to know about me
+            right?
+            <br></br> Have a go through my website to learn about me more and
+            feel free to ask questions through Contact Me Section. You can also
+            visit my LinkedIn and Instagram handles to get further details about
+            me.
           </p>
           <div className="hero_btn d_flex">
             <div className="col_1">

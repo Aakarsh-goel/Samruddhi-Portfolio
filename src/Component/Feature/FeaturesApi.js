@@ -3,7 +3,7 @@ const data = [
       id: 1,
       image: "https://img.icons8.com/external-xnimrodx-lineal-color-xnimrodx/2x/external-sketch-design-tools-xnimrodx-lineal-color-xnimrodx.pnghttps://img.icons8.com/external-xnimrodx-lineal-color-xnimrodx/2x/external-sketch-design-tools-xnimrodx-lineal-color-xnimrodx.png",
       title: "Sketching",
-      desc: "I love sketchng anime charaters and hollywood pop singers whom I like. I am not professional artist but I love to do painting and sketching, it creates my mind to fresh mode. its not my pasison but its only my hobby and my time pass",
+      desc: "I love sketchng anime charaters and hollywood pop singers whom I like. I am not professional artist but I love to do painting and sketching, it creates my mind to fresh mode. its not my passion but its only my hobby and my time pass",
     },
     {
       id: 2,

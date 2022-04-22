@@ -7,6 +7,6 @@
   margin-top: 30px;
   size: 200%;
 }
-p {
-  font-size: 1.4rem;
+.feature-text {
+  font-size: 20px
 }

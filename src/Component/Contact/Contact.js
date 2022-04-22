@@ -45,9 +45,9 @@ const Contact = () => {
           <div className="content d_flex">
             <div className="left">
               <div className="box box_shodow flex-contact">
-                <div className="img">
+                {/* <div className="img">
                   <img className="img-contact" src={contact2} alt="" />
-                </div>
+                </div> */}
                 <div className="details">
                   <h1>Samruddhi Modak</h1>
                   <p>VNIT, Nagpur</p>
@@ -56,10 +56,13 @@ const Contact = () => {
                     and call in to my account.
                   </p>{" "}
                   <br />
-                  <p className="contact-details">Phone: +919518548960</p>
+                  <p className="contact-details">
+                    Phone: <br />
+                    +919518548960
+                  </p>
                   <p className="contact-details">
                     {" "}
-                    Email: samruddhisheetal@gmail.com{" "}
+                    Email: <br /> samruddhisheetal@gmail.com{" "}
                   </p>{" "}
                   <br />
                 </div>

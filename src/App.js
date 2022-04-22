@@ -5,6 +5,7 @@ import Home from "./Component/Hero/Home";
 import Features from "./Component/Feature/Features";
 import Portfolio from "./Component/Portfoliio/Portfolio";
 import Contact from "./Component/Contact/Contact";
+import Dance from "./Component/DanceArena/Dance";
 
 const App = () => {
   return (
@@ -13,6 +14,8 @@ const App = () => {
       <Home />
       <Features />
       <Portfolio />
+      <Dance />
+
       <Contact />
     </div>
   );
