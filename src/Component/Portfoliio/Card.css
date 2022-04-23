@@ -3,3 +3,28 @@
   width: 100%;
   max-height: 100%;
 }
+.btn1_shadow {
+  padding: 1.8rem 2.5rem;
+  border-radius: 0.6rem;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  color: #000;
+  transition: 0.5s;
+}
+.btn1_shadow {
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 0.4rem 0.4rem 0.8rem #cbcbcb, -0.4rem -0.4rem 0.8rem #ffffff;
+}
+.btn1_shadow:hover {
+  cursor: pointer;
+  background: #d84c7d !important;
+  color: white;
+  transform: translateY(-1rem);
+}
+
+.btn1_shadow_active {
+  cursor: pointer;
+  background: #d84c7d !important;
+  color: white !important;
+  transform: translateY(-1rem);
+}

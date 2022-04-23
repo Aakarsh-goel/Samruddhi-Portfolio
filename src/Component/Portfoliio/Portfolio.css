@@ -56,6 +56,11 @@
 .Portfolio .box:hover {
   color: black;
 }
+.Portfolio .btn_shadow:checked {
+  background: #d84c7d !important;
+  color: white;
+  transform: translateY(-1rem);
+}
 /*------------popup--------*/
 body.active-modal {
   overflow-y: hidden;

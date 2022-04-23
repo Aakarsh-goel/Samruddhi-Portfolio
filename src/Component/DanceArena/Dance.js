@@ -39,7 +39,7 @@ const Dance = () => {
   ];
   return (
     <div>
-      <section className="feautures top" id="dance">
+      <section className="features top" id="dance">
         <div className="container">
           <div className="heading">
             <h4>My Dancing Side</h4>

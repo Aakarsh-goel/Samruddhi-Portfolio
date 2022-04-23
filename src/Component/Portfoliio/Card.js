@@ -3,7 +3,17 @@ import "./Card.css";
 
 const Card = (props) => {
   const [modal, setModal] = useState(false);
+  const [style, setStyle] = useState("btn1_shadow");
+  const [toggle, setToggle] = useState(false);
 
+  const onStyleChange = () => {
+    setToggle(!toggle);
+    if (toggle) {
+      setStyle("btn1_shadow_active btn1_shadow");
+    } else {
+      setStyle("btn1_shadow");
+    }
+  };
   const toggleModal = () => {
     setModal(!modal);
   };
@@ -51,7 +61,7 @@ const Card = (props) => {
               <h1>{props.title}</h1>
               <p>{props.desc}</p>
               <div className="button f_flex mtop">
-                <button className="btn_shadow">
+                <button className={style} onClick={onStyleChange}>
                   LIKE THIS <i class="far fa-thumbs-up"></i>
                 </button>
 

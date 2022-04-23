@@ -8,7 +8,6 @@
 .features .box p {
   word-spacing: 0.2rem;
   transition: 0.5s;
-
 }
 .features .box i {
   font-size: 3rem;
@@ -22,4 +21,10 @@
 .features .box:hover i {
   color: white;
   opacity: 1;
+}
+
+@media (max-width: 765px) {
+  .features {
+    font: 10%;
+  }
 }

@@ -10,7 +10,7 @@ import hero from "../../Pics/hero-2.jpeg";
 const Home = () => {
   return (
     <section className="hero sam-grid" id="home">
-      <div className="container-grid f_flex top">
+      <div className="container-grid ">
         <div className="left-container top">
           <h3>WELCOME TO MY WORLD </h3>
           <h2>
@@ -63,13 +63,17 @@ const Home = () => {
       <div className="hero_btn d_flex_find ">
         <div className="col_1">
           <h4>FIND ME</h4>
-
-          <button
-            className="btn_shadow "
-            onClick={() => console.log("button is clicked")}
+          <a
+            href="https://www.instagram.com/samruddhiii_modak/"
+            target="_blank"
           >
-            <i className="fab fa-instagram"></i>
-          </button>
+            <button
+              className="btn_shadow "
+              onClick={() => console.log("button is clicked")}
+            >
+              <i className="fab fa-instagram"></i>
+            </button>
+          </a>
           <a
             href="https://www.linkedin.com/in/samruddhi-modak-2320551b6/"
             target="_blank"
